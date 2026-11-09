@@ -1,6 +1,6 @@
 # 小窗提示线移植（MiniBarPort）
 
-一个面向小米 HyperOS 3 / Android 17 的独立 Xposed 模块，用于隐藏通知小窗提示线，并去掉提示线附带的整块占位，做到通知显示和消失全过程都不留白。
+一个面向小米 HyperOS 4 / Android 17 的独立 Xposed 模块，用于隐藏通知小窗提示线，并去掉提示线附带的整块占位，做到通知显示和消失全过程都不留白。
 
 本项目参考 OShape 中“小窗提示线”功能的实现思路，但为独立编写的精简移植版，不包含白名单功能。
 
@@ -15,14 +15,14 @@
 
 | 项目 | 值 |
 |---|---|
-| 系统 | HyperOS 3 / Android 17 |
+| 系统 | HyperOS 4 / Android 17 |
 | SystemUI 版本 | `17.03.260226.r` |
 | 包名 | `com.minibar.port` |
 | 当前版本 | 2.4（versionCode 15） |
 | Xposed API | 101 |
 | Hook 范围 | `com.android.systemui` |
 
-已在上述 SystemUI 版本实机验证。其他 HyperOS 3 版本可能因 MIUI 通知模板实现变化而失效。
+已在上述 SystemUI 版本实机验证。其他 HyperOS 4 版本可能因 MIUI 通知模板实现变化而失效。
 
 ## 安装
 
