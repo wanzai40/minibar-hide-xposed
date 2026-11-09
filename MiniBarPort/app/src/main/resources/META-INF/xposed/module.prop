@@ -1,0 +1,9 @@
+id=com.minibar.port
+name=小窗提示线移植
+version=2.4
+versionCode=15
+author=Doubao
+description=移植 HyperOShape 小窗提示线相关功能（白名单除外）。
+minApiVersion=101
+targetApiVersion=101
+staticScope=false
