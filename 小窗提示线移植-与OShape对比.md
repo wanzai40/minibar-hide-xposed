@@ -7,7 +7,7 @@
 
 目标机型与系统：
 
-- HyperOS 3 / Android 17
+- HyperOS 4 / Android 17
 - SystemUI `17.03.260226.r`
 - Xposed API 101
 
